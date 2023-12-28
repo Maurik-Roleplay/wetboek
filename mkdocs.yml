@@ -1,0 +1,36 @@
+site_name: Wetboek Maurik Roleplay
+site_description: 'APV van Maurik Roleplay'
+site_url: 'https://wetboek.maurik.nl/'
+site_author: 'Maurik'
+
+copyright: Copyright 2024 - Maurik Roleplay
+
+repo_url: 'https://github.com/Maurik-Roleplay'
+repo_name: 'Maurik-Roleplay/wetboek'
+
+# Congiguration
+theme:
+  name: material
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  favicon: img/maurik.png
+  logo: img/maurik.png
+  language: nl
+
+
+nav:
+    - Home: home.md
+    - Server Regels: index.md
+    - Categoriëen: categorieen.md
+    - Wetboek: wetboek.md
+    - Streamen: streamen.md
+    - Risico Gebieden: risico.md
+    - No Fly Zones: noflyzones.md
+    - Staffleden: staffleden.md
